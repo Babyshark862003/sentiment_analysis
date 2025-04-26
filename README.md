@@ -1,7 +1,7 @@
-**Project Title: Integrated Methodology for Stock Sentiment Analysis Using Big Data**
+**Project Title: SENTIMENT ANALYSIS OF MARKET NEWS IN STOCK PRICE PREDICTION**
 
 ***Overview***
-In this research, the authors propose an integrated methodology that utilizes big data from 25 stocks within the S&P 500 index, covering the period from 2002 to 2024. The study aims to analyze stock price movements in relation to news sentiment.
+In this research, the authors propose an integrated methodology that utilizes big data from 25 stocks within the S&P 500 index, covering 2002 to 2024. The study aims to analyze stock price movements about news sentiment.
 
 ***Methodology***
 1. Data Collection:
@@ -10,7 +10,7 @@ News data is sourced from the Polygon API to gather financial articles relevant 
 
 2. Sentiment Analysis:
 Sentiment analysis is performed using TextBlob, a widely used text mining tool, to calculate the sentiment score for each article.
-Articles are classified into three categories: positive, negative, or neutral based on their sentiment scores.
+Articles are classified into three categories: positive, negative, or neutral based on sentiment scores.
 
 3. Discord Bot Development:
 A Discord bot is built to disseminate market news to investors, providing timely updates based on the sentiment analysis results.
